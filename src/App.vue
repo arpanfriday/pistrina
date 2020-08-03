@@ -1,21 +1,25 @@
 <template>
     <div id="app">
         <pp-navigation></pp-navigation>
-        <pp-home></pp-home>
+<!--        <pp-home></pp-home>-->
+        <pp-admin></pp-admin>
         <pp-footer-info></pp-footer-info>
     </div>
 </template>
 
 <script>
 import Navigation from "@/components/Navigation";
-import Home from "@/components/Home";
+// import Home from "@/components/Home";
+
 import FooterInfo from "@/components/FooterInfo";
+import Admin from "@/components/Admin";
 
 export default {
     name: 'App',
     components: {
-        ppHome: Home,
         ppNavigation: Navigation,
+        // ppHome: Home,
+        ppAdmin: Admin,
         ppFooterInfo: FooterInfo
     }
 }

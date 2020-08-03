@@ -23,10 +23,10 @@
                     <hr class="light">
                     <h5 style="font-size: x-large;">Service areas</h5>
                     <hr class="light">
-                    <p>City, State, PIN</p>
-                    <p>City, State, PIN</p>
-                    <p>City, State, PIN</p>
-                    <p>City, State, PIN</p>
+                    <p>Kolkata, WB, 700000</p>
+                    <p>Dehradun, UK, 248009</p>
+                    <p>Bengalore, KA, 560002</p>
+                    <p>Delhi, Delhi, 110002</p>
                 </div>
                 <div class="col-12">
                     <hr class="light-100">
