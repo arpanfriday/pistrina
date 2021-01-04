@@ -10,7 +10,6 @@
         </div>
         <div class="row background">
             <div class="col-md-3">
-                <ab-trending-cards image-location="@/assets/cards/cake-roasted-berry.jpg"></ab-trending-cards>
                 <div class="card">
                     <img src="../../assets/trendingItems/cake-roasted-berry.jpg" alt="card1">
                     <div class="card-body">

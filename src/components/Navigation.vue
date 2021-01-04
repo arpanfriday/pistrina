@@ -1,6 +1,6 @@
 <template>
     <!-- NAVIGATION -->
-    <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top" id="navigation-bar">
+    <nav class="navbar navbar-expand-md navbar-light bg-light" id="navigation-bar">
         <div class="container-fluid">
             <a href="#" class="navbar-brand">
                 <img src="../../src/assets/pistrinaLogo.png" alt="logo" style="height: 70px; width: auto">
@@ -22,7 +22,12 @@
 
 <script>
 export default {
-    name: "Navigation"
+    name: "Navigation",
+    data() {
+        return {
+            trendingItems: '/trendingItems'
+        }
+    }
 }
 </script>
 
